@@ -9,9 +9,7 @@
 version: "1"
 projects:
 - name: dinhmailaus
-  environments:
-  - name: N8N
-    services:
+  services:
     - type: web
       name: n8n:latest
       runtime: image
