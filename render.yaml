@@ -19,38 +19,6 @@ projects:
         url: docker.io/n8nio/n8n:latest
       plan: free
       envVars:
-      - key: WEBHOOK_URL
-        sync: false
-      - key: TOGETHER_API_KEY
-        sync: false
-      - key: PINECONE_API_KEY
-        sync: false
-      - key: OPENROUTER_API_KEY
-        sync: false
-      - key: N8N_PROTOCOL
-        sync: false
-      - key: N8N_PORT
-        sync: false
-      - key: N8N_HOST
-        sync: false
-      - key: N8N_EDITOR_BASE_URL
-        sync: false
-      - key: MOONSHOT_API_KEY
-        sync: false
-      - key: MIXTRAL_API_KEY
-        sync: false
-      - key: HF_API_KEY
-        sync: false
-      - key: GROQ_API_KEY
-        sync: false
-      - key: GEMINI_API_KEY
-        sync: false
-      - key: CODESTRAL_API_KEY
-        sync: false
-      - key: CEREBRAS_API_KEY
-        sync: false
-      - key: AI_ML_API_KEY
-        sync: false
       # Generates a base64-encoded key for
       # encrypting credentials in n8n
       #
